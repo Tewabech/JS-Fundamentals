@@ -1,1 +1,1 @@
-this is js 8-square.js
+this is js 7-multi_c.js
