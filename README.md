@@ -1,1 +1,1 @@
-this is js 9-add.js
+this is js 8-square.js
