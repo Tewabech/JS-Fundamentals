@@ -1,1 +1,1 @@
-this is js multi language
+this is js 9-add.js
