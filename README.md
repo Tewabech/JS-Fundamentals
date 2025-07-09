@@ -1,1 +1,1 @@
-first js cod to git hub
+this is js multi language
