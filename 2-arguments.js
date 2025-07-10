@@ -21,14 +21,16 @@ const rl = readline.createInterface({
 rl.question("Enter a list of strings separated by commas: ", function (answer) {
   const array = answer.split(",").map(item => item.trim());
   let num = array.length;
-  console.log("Array of strings:", array);
+console.log("Array of strings:", array);
+{
+
   if (num === 0) {
   console.log("No argument");
 } else if (num === 1) {
   console.log("Argument found");
 } else {
   console.log("Arguments found");
-}
+}}
   rl.close();
 });
 // Check the number of arguments and print the appropriate message
