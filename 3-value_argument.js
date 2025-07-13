@@ -1,12 +1,6 @@
-const arg = process.argv[2];
+const args = process.argv.slice(2);
 
-if(isNaN(arg)){
-console.log("No Argument");
-} else {
-{
- console.log(arg);
-}
-}
+console.log(args[0] || 'No argument');
 //if()
 /*{
 if ( > 0)
