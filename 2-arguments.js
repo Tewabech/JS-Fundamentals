@@ -1,5 +1,5 @@
-/*// Ask user to input comma-separated strings
-let input = prompt("Enter a list of items, separated by commas:");
+// Ask user to input comma-separated strings
+//let input = prompt("Enter a list of items, separated by commas:");
 // Use const to avoid var
 const args = process.argv.slice(2); // Skip first 2 default Node arguments
 
@@ -10,8 +10,8 @@ if (args.length === 0) {
   console.log("Argument found");
 } else {
   console.log("Arguments found");
-}*/
-const readline = require("readline");
+}
+/*const readline = require("readline");
 
 const rl = readline.createInterface({
   input: process.stdin,
